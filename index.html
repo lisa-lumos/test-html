@@ -1,28 +1,55 @@
+<!-- claims the HTML5 version file type: -->
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
 <head>
   <meta charset="utf-8">
   <title>Lisa's personal site</title>
+  <!-- 💚 -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- internal CSS -->
+  <!-- <style media="screen">
+    body { /* change style of body */
+      background-color: #fff5eb;
+    }
+    hr { /* change style of horizontal rules */
+      /* background-color: white; */
+      /* change default border style */
+      /* border-style: none; */
+      /* height: 2px; */
+      /* width: 30%; /* 100px; */ */
+      border-style: none none dotted;
+      border-width: 10px;
+      border-color: grey;
+      height: 0px;
+      width: 10%; /* could be 30% (realtive) instead of px */
+    }
+    img { /* change style of images */
+      height: 120px;
+    }
+  </style> -->
 </head>
 
+<!-- <body style="background-color: #fff5eb;"> -->
 <body>
   <table>
     <tr>
-      <td><img src="images/test.jpg" alt="Lisa's profile picture"></td>
+      <td><img src="images/test.png" alt="Lisa's profile picture"></td>
       <td>
         <h1>Lisa Jia</h1>
-        <p><em>Fan of <strong>Saltie</strong> and <a href="https://www.mcdonalds.com/us/en-us/product/egg-mcmuffin.html">Egg McMuffin</a></em></p>
-        <p>I am a PhD student from UW, majoring in physics. I like to play with Saltie and eat pizza. </p>
+        <p><em>Fan of <strong>Ratty</strong> and <a href="https://www.mcdonalds.com/us/en-us/product/egg-mcmuffin.html">Egg McMuffin</a></em></p>
+        <p>I am a PhD student at UW. I like to play with Rattie and eat pizza. </p>
 
       </td>
     </tr>
   </table>
 
+  <h3>hover me and see</h3>
+
   <hr>
 
-  <h3>Contact me</h3>
-  <p>Tel: (307)761-0000</p>
+  <h3 class="large_h3">Contact me</h3>
+  <p><strong>Tel: </strong>(307)761-0000</p>
   <p>Email: myemail@gmail.com</p>
   <p><a href="contact-me.html">Contact me link</a></p>
   <hr>
@@ -46,31 +73,39 @@
   <hr>
 
   <h3><a href="hobbies.html">My Hobbies</a></h3>
+  <!-- id="weird" -->
   <ol>
     <li>Programming</li>
-    <li>Eating</li>
+    <li>Mountainbiking</li>
     <li>Playing video games</li>
   </ol>
   <hr>
 
   <h3>Work Experience</h3>
   <table>
+    <!-- table head: -->
     <thead>
       <th>Dates</th>
       <th>Experience</th>
     </thead>
-    <tr>
-      <td>2011-2021</td>
-      <td>Greduate Assistant at XXX</td>
-    </tr>
-    <tr>
-      <td>2020</td>
-      <td>Summer Intern at XXX</td>
-    </tr>
+    <!-- table body: -->
+    <tbody>
+      <!-- table row 1: -->
+      <tr>
+        <!-- td: table cell -->
+        <td>2011-2021</td>
+        <td>Greduate Assistant at XXX</td>
+      </tr>
+      <!-- table row 2 -->
+      <tr>
+        <td>2020</td>
+        <td>Summer Intern at XXX</td>
+      </tr>
+    </tbody>
   </table>
   <hr>
 
-  <h3>Skills</h3>
+  <h3 class="RedColor_h3 large_h3">Skills</h3>
   <!-- two nested tables in outer table's row-->
   <table>
     <tr>
